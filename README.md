@@ -142,7 +142,7 @@ curl -X POST http://localhost:8000/explain \
 
 ## 📬 Contact
 
-**Rajan Puri** | VP Quantitative Finance (Bank of America) | Ph.D. Applied Mathematics
+**Rajan Puri** 
 - 📧 purirajan.rp@gmail.com
 - 🌐 rajanpuri.com
 - 💼 linkedin.com/in/razanpuri
