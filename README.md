@@ -1,7 +1,5 @@
 # CreditRisk Intelligence — AI-Powered Credit Risk Infrastructure for Fintechs
 
-> Built by a former Bank of America VP Quantitative Finance Analyst (Ph.D. Applied Mathematics)
-> with experience governing $108B+ credit portfolios under CCAR, CECL, and Basel frameworks.
 
 ---
 
