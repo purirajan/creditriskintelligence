@@ -99,7 +99,7 @@ creditrisk-intelligence/
 
 ```bash
 # Clone and install
-git clone https://github.com/purirajan/creditrisk-intelligence
+git clone https://github.com/purirajan/creditriskintelligence
 cd creditrisk-intelligence
 pip install -r requirements.txt
 
