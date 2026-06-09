@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Framework](https://img.shields.io/badge/framework-FastAPI-009688.svg)
 ![Regulatory](https://img.shields.io/badge/regulatory-Basel%20%7C%20CECL%20%7C%20SR11--7-orange.svg)
+![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg?logo=docker)
 
 ---
 
