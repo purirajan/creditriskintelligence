@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+
+  # ── Main API ───────────────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: creditrisk-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=info
+    volumes:
+      - audit_logs:/app/audit_logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # ── Redis (for caching model scores in production) ─────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: creditrisk-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+volumes:
+  audit_logs:
+    driver: local
