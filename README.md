@@ -6,6 +6,7 @@
 ![Framework](https://img.shields.io/badge/framework-FastAPI-009688.svg)
 ![Regulatory](https://img.shields.io/badge/regulatory-Basel%20%7C%20CECL%20%7C%20SR11--7-orange.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg?logo=docker)
+[![CI](https://github.com/purirajan/creditriskintelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/purirajan/creditriskintelligence/actions/workflows/ci.yml)
 
 ---
 
